@@ -105,4 +105,4 @@ Triggers cache eviction
     }
 {% endhighlight %}
 #### 5. Conclusion
-Redis is not a simple key-value store, it can be called as a data structure store as it's able to store data in advanced data structures. Spring Cache abstraction is a high level abstraction for interacting with the store.
+Redis is not a simple key-value store, it can be called as a data structure store as it's can store data in advanced data structures. Spring Cache abstraction is a high level abstraction for interacting with the store.
