@@ -23,8 +23,8 @@ bing_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
+show_social_icons:    true
+ajaxify_contact_form: true
 enable_mathjax: false
 extended_fonts: false
 enable_anchorjs: false
@@ -38,7 +38,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: pranavek
 
 # txtpen post comments
 # (leave blank to disable txtpen)
@@ -55,11 +55,11 @@ github_username:
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: pranavek
 skype_username:
 steam_nickname:
-google_plus_id:
-linkedin_username:
+google_plus_id: +pranavek
+linkedin_username: pranavek
 angellist_username:
 medium_id:
 bitcoin_url:
