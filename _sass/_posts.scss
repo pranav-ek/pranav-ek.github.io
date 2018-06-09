@@ -20,6 +20,10 @@
   color: #333;
 }
 
+.post-link .post-title a:hover {
+  color: green;
+}
+
 .post-footer {
   @extend .italic;
 
