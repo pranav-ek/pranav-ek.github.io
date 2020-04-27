@@ -14,17 +14,17 @@ header_pages:
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-49085967-1
 google_tag_manager:
 # Bing services
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
+show_social_icons:    true
+ajaxify_contact_form: true
 enable_mathjax: false
 extended_fonts: false
 enable_anchorjs: false
@@ -38,7 +38,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: pranavek
 
 # txtpen post comments
 # (leave blank to disable txtpen)
@@ -55,11 +55,11 @@ github_username:
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: pranavek
 skype_username:
 steam_nickname:
-google_plus_id:
-linkedin_username:
+google_plus_id: +pranavek
+linkedin_username: pranavek
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -69,16 +69,16 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
+share_facebook: true
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
-share_stumbleupon: false
+share_stumbleupon: true
 share_hackernews: false
 
 text:
@@ -111,7 +111,7 @@ text:
       sending:  'sending..'
       sent:     'Message sent!'
       error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  thanks: 'Thanks for contacting me. I will reply as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
