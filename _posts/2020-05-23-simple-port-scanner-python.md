@@ -10,9 +10,9 @@ tags:
 
 ### 1. Overview
 
-When it comes to scripting for security-related stuff, [Python](https://www.python.org/) is the go-to language. In the active [reconnaissance](https://en.wikipedia.org/wiki/Footprinting) stage of a [pentesting](https://en.wikipedia.org/wiki/Penetration_test), port scanning help us to understand the processes that are open and target them with the relevant attacking vectors.
+In the active [reconnaissance](https://en.wikipedia.org/wiki/Footprinting) stage of a [pentesting](https://en.wikipedia.org/wiki/Penetration_test), port scanning help us to understand the processes that are open and target them with the relevant attacking vectors.
 
-We are going to take a look into a simple port scanner written in Python. The idea here is to understand how a port scanner functions, there are tried and tested tools like [Nmap](https://nmap.org/), which you should be using if you are looking for a robust port scanner. 
+When it comes to scripting for security-related stuff, [Python](https://www.python.org/) is the go-to language. We are going to take a look into a simple port scanner written in Python. The idea here is to understand how a port scanner functions, there are tried and tested tools like [Nmap](https://nmap.org/), which you should be using if you are looking for a robust port scanner. 
 
 It takes less than ten lines of code to come up with a very basic version of a port scanner in Python. Once I show you how to do it, you should go through the **Refactoring** section to improve the quality of the program.
 
