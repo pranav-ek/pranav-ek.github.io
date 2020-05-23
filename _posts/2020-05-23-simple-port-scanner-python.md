@@ -66,6 +66,7 @@ I said one argument, but we are passing IP and port to the connect function, if 
 I will pose some questions and then will answer them with the solutions.
 
 a) What will happen if I don't pass the host name while invoking the program?
+
 The program will fail. To fix it we should add some validation before resolving the hostname.
 ```python
 if(len(sys.argv) < 2):
@@ -75,6 +76,7 @@ if(len(sys.argv) < 2):
 We are expecting two arguments in this program, one the file name and second is the hostname, the file name can be accessed using the index `0`. We are stopping the execution of the program when the number of arguments is less than two.
 
 b) What if the hostname provided doesn't exist?
+
 The program will exit by throwing [socket.gaierror](https://docs.python.org/3/library/socket.html#socket.gaierror) exception.
 ```
 socket.gaierror: [Errno -3] Temporary failure in name resolution
@@ -86,6 +88,7 @@ except socket.gaierror:
     sys.exit(1)
 ```
 c) The scanning is taking too long to execute, when I interrupt the execution using `ctrl+c` what will happen?
+
 Catch the built-in [KeyboardInterrupt](https://docs.python.org/3/library/exceptions.html) exception.
 ```python
 except KeyboardInterrupt:
@@ -93,11 +96,13 @@ except KeyboardInterrupt:
     sys.exit(1)
 ```
 d) The execution is very slow, how can I improve the performance?
+
 This is an I/O bound program. We can use threading to improve performance.
 
 You can read this [article](https://realpython.com/python-concurrency/) to add threading to the I/O task, I'm not going to explain about it in this article.
 
 e) How do I know the execution time of the program?
+
 We can make use of the timestamps. Import [datatime](https://docs.python.org/3/library/datetime.html) module and use [now()](https://docs.python.org/3/library/datetime.html#datetime.datetime.now) function to get the current timestamp.
 
 ```python
