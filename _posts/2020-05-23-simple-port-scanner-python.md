@@ -55,11 +55,9 @@ a)  A network socket requires a socket family and a socket type. When we created
 
 The [socket function](https://docs.python.org/3/library/socket.html#socket.socket) sets *AF_INET* (IPV4) as the address family and the *SOCK_STREAM* (TCP) as the type by default.
 
-The modified socket would creation code will look like this
+The modified socket creation code will look like this
 ```python
-...
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-..
 ```
 
 b) The [connect_ex()](https://docs.python.org/3/library/socket.html#socket.socket.connect_ex) function takes a single argument - address - and connects to that address and returns error indicators, the value will be `0` if the operation succedded.
