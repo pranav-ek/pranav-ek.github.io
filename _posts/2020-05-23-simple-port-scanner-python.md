@@ -73,7 +73,7 @@ if(len(sys.argv) < 2):
     print("Usage: python3 %s <host>"%sys.argv[0])
     sys.exit(1)
 ```
-We are expecting two arguments in this program, one the file name and second is the hostname, the file name can be accessed using the index `0`. We are stopping the execution of the program when the number of arguments is less than two.
+We are expecting two arguments in this program, first one is the file name and second is the hostname, the file name can be accessed using the index `0`. We are stopping the execution of the program when the number of arguments is less than two.
 
 b) What if the hostname provided doesn't exist?
 
