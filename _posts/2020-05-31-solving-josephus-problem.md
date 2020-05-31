@@ -13,7 +13,7 @@ How many of you had an aha moment while watching a video on YouTube? This blog p
 
 ### Josephus problem
 
-Few soldiers standing in the circle to be executed. The counting begins at a particular point and proceeds around the circle in a fixed direction. A set of soldiers will be executed, and few will be skipped, this process will continue until only one soldier remains, and he is freed.
+Few soldiers are standing in the circle to be executed. The counting begins at a particular point and proceeds around the circle in a fixed direction. A set of soldiers will be executed, and few will be skipped, this process will continue until only one soldier remains, and he is freed.
 
 The task here is to find a position in the initial circle to avoid the execution.
 
@@ -50,7 +50,7 @@ If you notice we are passing an argument to the rotate function, it rotates the 
 
 #### Solution using Binary 
 
-Unlike the Deque method, this solution will directly get into the answer. If the number of soldiers is seven, then this will tell us where you need to sit to avoid getting killed.
+Unlike the Deque method, this solution will directly get us into the answer. If the number of soldiers is seven, then this will tell us where you need to sit to avoid getting killed.
 
 ```python
 number_of_soldiers = bin(7)
