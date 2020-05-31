@@ -60,11 +60,11 @@ print('The survivor is ',int(survivor,2))
 
 We are converting the number to its [binary](https://en.wikipedia.org/wiki/Binary_number) form using the bin function. If you print the binary, it will be like `0b111`. Did you notice the `0b` in the string? we are not interested in that.
 
-To make this method work, we need to get the first binary value in the string and append it to the last. 
+To make this method work, we need remove the first binary value from  the string and append it to the end of the string. 
 
 That's what we are doing with `number_of_soldiers[3:] + number_of_soldiers[2] `. The `number_of_soldiers[3:] ` will return `11`, by removing `0b1` from it. Then we are appending the value of the second index `1` to the string.
 
-While printing the survivor, we are converting the binary to an integer. The second argument in the int function is the base. We are saying the [int](https://docs.python.org/3.4/library/functions.html?highlight=int#int) function that the input is in binary (base 2) convert it to integer for me.
+While printing the survivor, we are converting the binary to an integer. The second argument in the int function is the base. We are saying the [int](https://docs.python.org/3.4/library/functions.html?highlight=int#int) function that the input is in binary - base 2, convert it to integer for me.
 
 
 
