@@ -22,7 +22,7 @@ Following is the video which explains it in detail with some examples.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uCsD3ZGzMgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  
- My 'aha' moment was when I realized that this problem can be easily solved using binary numbers. 
+ My 'aha!' moment was when I realized that this problem can be easily solved using binary numbers. 
  
  We are going to solve this problem in Python using Deque, and later with the binary number.
 
@@ -59,7 +59,7 @@ survivor = number_of_soldiers[3:] + number_of_soldiers[2]
 print('The survivor is ',int(survivor,2))
 ```
 
-We are converting the number to its [binary](https://en.wikipedia.org/wiki/Binary_number) form using the bin function. If you print the binary, it will be like `0b111`. Did you notice the `0b` in the string, we are not interested in that.
+We are converting the number to its [binary](https://en.wikipedia.org/wiki/Binary_number) form using the bin function. If you print the binary, it will be like `0b111`. Did you notice the `0b` in the string? we are not interested in that.
 
 To make this method work, we need to get the first binary value in the string and append it to the last. 
 
