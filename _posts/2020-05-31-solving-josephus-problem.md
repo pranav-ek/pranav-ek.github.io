@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solving Josehus problem 
-date: '2020-05-23 15:48:52
+date: '2020-05-23 15:48:52'
 tags: 
  - Python
  - Math
