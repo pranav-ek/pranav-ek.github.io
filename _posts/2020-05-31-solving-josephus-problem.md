@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solving Josephus problem 
-date: '2020-05-23 15:48:52'
+date: '2020-05-31 12:49:00'
 tags: 
  - Python
  - Math
