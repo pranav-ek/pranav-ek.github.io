@@ -21,7 +21,6 @@ Following is the video which explains it in detail with some examples.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uCsD3ZGzMgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
- 
  My 'aha!' moment was when I realized that this problem can be easily solved using binary numbers. 
  
  We are going to solve this problem in Python using Deque, and later with the binary number.
@@ -63,7 +62,7 @@ We are converting the number to its [binary](https://en.wikipedia.org/wiki/Binar
 
 To make this method work, we need to get the first binary value in the string and append it to the last. 
 
-That's what we are doing with `number_of_soldiers[3:] + number_of_soldiers[2] `. The `number_of_soldiers[3:] ` will return `11`, by removing `0b1` from it. Then we are appending the value of the second index`1` to the string.
+That's what we are doing with `number_of_soldiers[3:] + number_of_soldiers[2] `. The `number_of_soldiers[3:] ` will return `11`, by removing `0b1` from it. Then we are appending the value of the second index `1` to the string.
 
 While printing the survivor, we are converting the binary to an integer. The second argument in the int function is the base. We are saying the [int](https://docs.python.org/3.4/library/functions.html?highlight=int#int) function that the input is in binary (base 2) convert it to integer for me.
 
