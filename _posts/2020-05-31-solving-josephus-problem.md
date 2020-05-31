@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Solving Josehus problem 
+title: Solving Josephus problem 
 date: '2020-05-23 15:48:52'
 tags: 
  - Python
@@ -30,7 +30,7 @@ Say, the total number of soldiers is `7`, and the number to skip is `2`, which m
 
 #### Solution using Deque
 
-The Deque contains elements from [1,8). We need to keep on eliminating soldiers until the number of soldiers becomes one, this is accomplished by using the rotate and pop function. 
+The [Deque](https://docs.python.org/2/library/collections.html#collections.deque) contains elements from [1,8). We need to keep on eliminating soldiers until the number of soldiers becomes one, this is accomplished by using the rotate and pop function. 
 
 ```python
 from collections import deque
@@ -59,13 +59,13 @@ survivor = number_of_soldiers[3:] + number_of_soldiers[2]
 print('The survivor is ',int(survivor,2))
 ```
 
-We are converting the number to its binary form using the bin function. If you print the binary, it will be like `0b111`. Did you notice the `0b` in the string, we are not interested in that.
+We are converting the number to its [binary](https://en.wikipedia.org/wiki/Binary_number) form using the bin function. If you print the binary, it will be like `0b111`. Did you notice the `0b` in the string, we are not interested in that.
 
 To make this method work, we need to get the first binary value in the string and append it to the last. 
 
 That's what we are doing with `number_of_soldiers[3:] + number_of_soldiers[2] `. The `number_of_soldiers[3:] ` will return `11`, by removing `0b1` from it. Then we are appending the value of the second index`1` to the string.
 
-While printing the survivor, we are converting the binary to an integer. The second argument in the int function is the base. We are saying the int function that the input is in binary (base 2) convert it to integer for me.
+While printing the survivor, we are converting the binary to an integer. The second argument in the int function is the base. We are saying the [int](https://docs.python.org/3.4/library/functions.html?highlight=int#int) function that the input is in binary (base 2) convert it to integer for me.
 
 
 
