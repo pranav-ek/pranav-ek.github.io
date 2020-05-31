@@ -15,7 +15,7 @@ How many of you had an aha moment while watching a video on YouTube? This blog p
 
 Few soldiers are standing in the circle to be executed. The counting begins at a particular point and proceeds around the circle in a fixed direction. A set of soldiers will be executed, and few will be skipped, this process will continue until only one soldier remains, and he is freed.
 
-The task here is to find a position in the initial circle to avoid the execution.
+The task is to find a position in the initial circle to avoid the execution.
 
 Following is the video which explains it in detail with some examples.
 
