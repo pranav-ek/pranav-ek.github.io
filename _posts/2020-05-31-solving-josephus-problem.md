@@ -21,11 +21,12 @@ Following is the video which explains it in detail with some examples.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uCsD3ZGzMgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+ 
  My 'aha' moment was when I realized that this problem can be easily solved using binary numbers. 
  
  We are going to solve this problem in Python using Deque, and later with the binary number.
 
-Say, the total number of soldiers is `7`, and the number to skip is `2`, which means the soldier`1` is skipped and `2` will be executed. The next soldier to executed will be `4` and so on. The soldier `7` will survive. Try it using a pen and paper.
+Say, the total number of soldiers is `7`, and the number to skip is `2`, which means the soldier `1` is skipped and `2` will be executed. The next soldier to executed will be `4` and so on. The soldier `7` will survive. Try it using a pen and paper.
 
 #### Solution using Deque
 
