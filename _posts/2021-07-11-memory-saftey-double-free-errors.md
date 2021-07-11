@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Memory Saftey: Double free errors
+title: Memory Saftey -  Double free errors
 date: '2021-07-11 00:00:00'
 ---
  
