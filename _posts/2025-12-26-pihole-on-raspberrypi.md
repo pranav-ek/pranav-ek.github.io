@@ -4,18 +4,18 @@ title: Pihole on Raspberry Pi Zero 2W
 date: '2025-12-26 17:10:00'
 ---
 
-## Overview
+## 1. Overview
 
 This guide provides a high-level summary of setting up Pi-hole on a Raspberry Pi Zero 2W using DietPi, with Tailscale for remote ad-blocking.
 
-## Prerequisites
+## 2. Prerequisites
 
 - Raspberry Pi Zero 2W (or any other Raspberry Pi)
 - SD card (at least 32GB)
 - Micro USB power supply
 - WiFi connectivity
 
-## 1. Install DietPi on Raspberry Pi Zero 2W
+## 3. Install DietPi on Raspberry Pi Zero 2W
 
 DietPi is a lightweight OS perfect for the Pi Zero.
 
@@ -23,7 +23,7 @@ DietPi is a lightweight OS perfect for the Pi Zero.
 - **WiFi Setup (Crucial)**: Before ejecting the SD card, open `dietpi.txt` to enable `AUTO_SETUP_NET_WIFI_ENABLED=1`, and enter your credentials in `dietpi-wifi.txt`. This allows a headless boot.
 - **Link**: [DietPi Installation Docs](https://dietpi.com/docs/install/)
 
-## 2. Install Pi-hole
+## 4. Install Pi-hole
 
 Once DietPi is running and you have SSH access:
 
@@ -64,7 +64,7 @@ If you don't want a second router but want automatic settings for all devices, y
 
 - **Link**: [Pi-hole Basic Install](https://docs.pi-hole.net/main/basic-install/)
 
-## 3. Remote Access with Tailscale
+## 5. Remote Access with Tailscale
 
 To block ads on your mobile devices while away from home:
 
@@ -75,6 +75,6 @@ To block ads on your mobile devices while away from home:
     2. Enable **"Override local DNS"**.
 - **Link**: [Tailscale & Pi-hole Guide](https://tailscale.com/kb/1114/pi-hole)
 
-## Conclusion
+## 6. Conclusion
 
 Setting up Pi-hole on a Raspberry Pi Zero 2W is a cost-effective way to improve your network's privacy and speed by blocking ads and trackers at the DNS level. By leveraging DietPi's lightweight footprint, you maximize the performance of the Pi Zero's hardware. Integrating Tailscale further extends these benefits, providing a secure, encrypted tunnel for your mobile devices to access your home DNS from anywhere in the world. This combination creates a robust, portable, and low-maintenance network security solution that enhances your browsing experience across all your devices.
