@@ -6,7 +6,7 @@ date: '2025-12-26 17:10:00'
 
 ## 1. Overview
 
-This guide provides a high-level summary of setting up Pi-hole on a Raspberry Pi Zero 2W using DietPi, with Tailscale for remote ad-blocking.
+This guide provides a high-level summary of setting up [Pi-hole](https://pi-hole.net/) on a [Raspberry Pi Zero 2W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/). At just **$15**, the Pi Zero 2W is an incredibly affordable way to get network-wide ad-blocking. This setup uses [DietPi](https://dietpi.com/) for a lightweight OS and [Tailscale](https://tailscale.com/)  for remote ad-blocking.
 
 ## 2. Prerequisites
 
